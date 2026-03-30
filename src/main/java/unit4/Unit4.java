@@ -60,7 +60,7 @@ public class Unit4 {
     public String repeatString(String str, int n) {
         // TODO: Implement this method
         String newStr = "";
-        for (int i = 0; i <= n; i++){
+        for (int i = 0; i < n; i++){
             newStr += str;
         }
         return newStr;
